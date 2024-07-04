@@ -1,0 +1,60 @@
+.home{
+    background-color: #360369;
+}
+.Welcome{
+    /* display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white; */
+    position: absolute;
+width: 692.27px;
+height: 144px;
+left: 250px;
+top: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 122px;
+text-align: center;
+
+color: #FFFFFF; 
+}
+/* Group 3 */
+
+#btn{
+position: absolute;
+width: 300px;
+height: 40px;
+left: 450px;
+top: 350px;
+}
+
+
+/* Weather Api */
+.info{
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+#t1{
+    font-size: 56px;
+}
+#t2{
+    font-size: 36px;
+}
+.ll{
+    width: 50%;
+    display: flex;
+    justify-content:flex-start ;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+#lat,#longg{
+
+    background: #270846;
+    padding: 20px;
+    margin: 10px;
+
+}
+
