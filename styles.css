@@ -87,3 +87,35 @@ top: 350px;
     color: #360369;
 }
 
+@media screen and (max-width: 600px) {
+    #weather-data{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #FFFFFF;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%px; /* Adjust the gap between columns if needed */
+    }
+    .container p {
+        font-family: 'Montserrat';
+        color: #FFFFFF;
+        background-color: #360369; 
+        margin: 2%;/* Optional: Add a background color to the paragraphs */
+        padding: 2%; /* Optional: Add some padding to the paragraphs */
+        border: 1px solid #ccc; /* Optional: Add a border to the paragraphs */
+    }
+    
+    #weather-heading{
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 5%;
+        padding-top: 2%;
+        font-family: 'Montserrat';
+        color: #360369;
+    }
+}
+
