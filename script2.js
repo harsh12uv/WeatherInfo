@@ -93,7 +93,8 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${lon
     .then(response => response.json())
     .then(data => {
         // Extract the required information
-        const location = data.name;
+        console.log(data);
+        const location = data.name+" , "+data.sys.country;
         const windspeed = Math.round(data.wind.speed*18/5 * 100) / 100;
         const humidity = data.main.humidity;
         const timezone = data.timezone;
