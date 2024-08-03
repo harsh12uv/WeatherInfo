@@ -28,8 +28,14 @@ function getLocation() {
 
 
 
+
 let latitude=JSON.parse(localStorage.getItem('latitude'));
 let longitude=JSON.parse(localStorage.getItem('longitude'));
+
+
+
+
+
 
 lat.innerHTML=`Lat:${latitude}`;
 longg.innerHTML=`Long:${longitude}`
