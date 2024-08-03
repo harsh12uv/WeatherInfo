@@ -2,7 +2,7 @@ let buttn=document.getElementById('btn')
 let ans=document.getElementById('info')
 
 console.log(buttn);
-buttn.addEventListener("click",getLocation);
+buttn.addEventListener("click",loadNewFile,getLocation);
 function myfunction(){
     // 
     console.log("button clicked")
@@ -23,4 +23,7 @@ function showPosition(position) {
 
   }
   
+  function loadNewFile() {
+    window.location.href = './index2.html';
+}
 
