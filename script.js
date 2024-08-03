@@ -1,10 +1,23 @@
 let buttn=document.getElementById('btn')
 let ans=document.getElementById('info')
 
+document.addEventListener('DOMContentLoaded',getLocation);
+function getLocation() {
+    if (navigator.geolocation) {
+
+      
+      navigator.geolocation.getCurrentPosition(showPosition);
+       
+    } else { 
+       
+      alert("location not granted");
+  }
+}
+
 
 
 console.log(buttn);
-buttn.addEventListener("click",loadNewFile,getLocation);
+buttn.addEventListener("click",loadNewFile);
 function myfunction(){
     // 
     console.log("button clicked")
